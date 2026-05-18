@@ -4,8 +4,6 @@
 
 We build tools that bring real-world assets, agricultural commodities, and financial primitives on-chain for the people who need them most. Our work is rooted in emerging markets, designed for developers, and committed to staying open.
 
----
-
 ## What We Build
 
 Every project we ship targets a genuine infrastructure gap — something that should exist, doesn't, and would meaningfully change what builders and communities can do on Stellar.
@@ -15,8 +13,6 @@ Every project we ship targets a genuine infrastructure gap — something that sh
 | [**StellarMint**](https://github.com/intastellar/stellarmint) | WIP | No-code RWA token issuance studio. Issue, manage, and distribute compliant real-world asset tokens on Stellar.                   |
 | [**StellarCrop**](https://github.com/intastellar/stellarcrop) | WIP | On-chain warehouse receipts for African agriculture. Tokenize commodity batches, manage investors, and settle proceeds on-chain. |
 | More coming                                                    | Planned  | We are actively designing the next layer of the stack. Watch this space.                                                         |
-
----
 
 ## Our Principles
 
@@ -28,8 +24,6 @@ Sub-cent transaction fees and 3–5 second finality on Stellar make things possi
 
 **Open by default.**
 Our code, our roadmaps, and our design decisions are public.
-
----
 
 ## Contributing
 
@@ -45,16 +39,12 @@ We use:
 - **Stellar SDK** and **Freighter** for all on-chain interactions
 - **Soroban** for smart contracts
 
----
-
 ## Community
 
 We are builders, and we believe the best way to grow a community and give back to it is to ship things worth caring about.
 
 - **GitHub Discussions** — the best place to propose ideas, ask questions, and follow project direction
 - **Issues** — bugs, tasks, and `good first issue` picks across all repos
-
----
 
 ## Organisation
 
