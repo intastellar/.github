@@ -1,36 +1,59 @@
-# StellarMint
+# Intastellar
 
-```text
-  ____  _       _ _             __  __ _       _
- / ___|| |_ ___| | | __ _ _ __ |  \/  (_)_ __ | |_
- \___ \| __/ _ \ | |/ _` | '__|| |\/| | | '_ \| __|
-  ___) | ||  __/ | | (_| | |   | |  | | | | | | |_
- |____/ \__\___|_|_|\__,_|_|   |_|  |_|_|_| |_|\__|
-```
+**Open-source financial infrastructure for the real economy — built on Stellar.**
 
-_The open-source RWA issuance studio for Stellar._
+We build tools that bring real-world assets, agricultural commodities, and financial primitives on-chain for the people who need them most. Our work is rooted in emerging markets, designed for developers, and committed to staying open.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](../LICENSE)
-[![CI](https://img.shields.io/badge/CI-GitHub%20Actions-blue.svg)](../.github/workflows/ci.yml)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](docs/CONTRIBUTING.md)
-[![Stellar](https://img.shields.io/badge/Stellar-testnet%20%2B%20mainnet-7D00FF.svg)](https://stellar.org)
-[![CI](https://github.com/intastellar/stellarmint/actions/workflows/ci.yml/badge.svg)](https://github.com/intastellar/stellarmint/actions/workflows/ci.yml)
+## What We Build
 
-## What Is StellarMint?
+Every project we ship targets a genuine infrastructure gap — something that should exist, doesn't, and would meaningfully change what builders and communities can do on Stellar.
 
-StellarMint is an open-source, no-code/low-code studio for issuing real-world asset tokens on the Stellar blockchain. It helps teams model an asset, configure compliance controls, generate Stellar metadata, manage holders, and prepare distribution workflows without building every issuer tool from scratch.
+| Project                                                        | Status      | Description                                                                                                                      |
+| -------------------------------------------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| [**StellarMint**](https://github.com/intastellar-stellarmint) | WIP | No-code RWA token issuance studio. Issue, manage, and distribute compliant real-world asset tokens on Stellar.                   |
+| [**StellarCrop**](https://github.com/intastellar-stellarcrop) | WIP | On-chain warehouse receipts for African agriculture. Tokenize commodity batches, manage investors, and settle proceeds on-chain. |
+| More coming                                                    | Planned  | We are actively designing the next layer of the stack. Watch this space.                                                         |
 
-RWA infrastructure is still hard to access in many emerging markets, especially across Africa. StellarMint focuses on practical issuance flows for real estate, bonds, commodities, carbon credits, funds, and equity-like instruments where teams need transparent asset records, wallet-based ownership, and compliance-aware transfer controls.
+## Our Principles
 
-Stellar is a strong fit because it supports native asset issuance at the protocol level. You do not need a smart contract just to create a token, and issuer accounts can enable Authorization Required, Authorization Revocable, and Clawback Enabled flags for regulated holder workflows. When programmable behavior is needed, StellarMint connects to Soroban, Stellar's Rust-based smart contract platform.
+**Real infrastructure, not demos.**
+Everything we build is self-hostable, MIT-licensed, and designed for production.
 
-## Supported Asset Classes
+**Emerging markets first.**
+Sub-cent transaction fees and 3–5 second finality on Stellar make things possible here that aren't viable anywhere else.
 
-| Asset Class   | Description                                                                  | Typical use case                                       |
-| ------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------ |
-| Real Estate   | Fractional ownership or participation units tied to a property or portfolio. | Apartment blocks, commercial buildings, land projects. |
-| Bond/Debt     | Fixed income instruments represented as transferable units.                  | Corporate notes, municipal debt, project finance.      |
-| Commodity     | Tokens backed by physical or reserved commodities.                           | Gold, agricultural produce, warehouse receipts.        |
-| Carbon Credit | Credits tied to verified emissions reduction or removal claims.              | Voluntary carbon markets, retirement workflows.        |
-| Fund Share    | Units representing participation in a managed fund.                          | Private funds, investment clubs, treasury pools.       |
-| Equity        | Equity-like ownership records subject to jurisdictional rules.               | Private company shares, cooperative membership units.  |
+**Open by default.**
+Our code, our roadmaps, and our design decisions are public.
+
+## Contributing
+
+All our projects are open for contribution. Each repository has a `docs/CONTRIBUTING.md` that covers setup, branch naming, commit conventions, and the specific conventions of that project's stack.
+
+If you are new to Stellar or to our stack, start with the `good first issue` label in any of our repos. If you want to work on something larger, open a GitHub Discussion first — we'd rather align early than review a large PR cold.
+
+We use:
+
+- **pnpm workspaces** for monorepo management
+- **Arkstack** (Express driver) for all backend services
+- **Next.js 15** (App Router) for all frontends
+- **Stellar SDK** and **Freighter** for all on-chain interactions
+- **Soroban** for smart contracts
+
+## Community
+
+We are builders, and we believe the best way to grow a community and give back to it is to ship things worth caring about.
+
+- **GitHub Discussions** — the best place to propose ideas, ask questions, and follow project direction
+- **Issues** — bugs, tasks, and `good first issue` picks across all repos
+
+## Organisation
+
+Intastellar is an open-source organisation. We are not a company, a DAO, or a fund. We are a group of builders who believe that financial infrastructure should be accessible, inspectable, and improvable by anyone.
+
+If you are building on Stellar and want to collaborate, open a Discussion in any of our repos or reach out through GitHub.
+
+---
+
+<p align="center">
+  <sub>Built on <a href="https://stellar.org">Stellar</a> · MIT Licensed · Open to contributors</sub>
+</p>
