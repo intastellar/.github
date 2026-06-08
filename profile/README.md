@@ -11,7 +11,7 @@ Every project we ship targets a genuine infrastructure gap — something that sh
 | Project                                                        | Status      | Description                                                                                                                      |
 | -------------------------------------------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | [**StellarMint**](https://github.com/intastellar-stellarmint) | WIP | No-code RWA token issuance studio. Issue, manage, and distribute compliant real-world asset tokens on Stellar.                   |
-| [**StellarCrop**](https://github.com/intastellar-stellarcrop) | WIP | On-chain warehouse receipts for African agriculture. Tokenize commodity batches, manage investors, and settle proceeds on-chain. |
+| [**SiloFi**](https://github.com/intastellar-silofi) | WIP | On-chain warehouse receipts for African agriculture. Tokenize commodity batches, manage investors, and settle proceeds on-chain. |
 | More coming                                                    | Planned  | We are actively designing the next layer of the stack. Watch this space.                                                         |
 
 ## Our Principles
